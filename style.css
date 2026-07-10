@@ -1,0 +1,45 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* navbar style start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 82%;
+    margin: 20px auto;
+}
+nav .menu-items ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu-items ul li{
+    list-style: none;
+    margin: 16px;
+    padding: 6px;
+}
+nav .menu-items ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+nav .btn button{
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* navbar style end */
