@@ -16,7 +16,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     max-width: 82%;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 nav .menu-items ul{
     display: flex;
