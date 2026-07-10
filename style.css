@@ -25,7 +25,7 @@ nav .menu-items ul{
 }
 nav .menu-items ul li{
     list-style: none;
-    margin: 16px;
+    margin: 18px;
     padding: 6px;
 }
 nav .menu-items ul li a{
@@ -43,3 +43,80 @@ nav .btn button{
     cursor: pointer;
 }
 /* navbar style end */
+/* hero section style start */
+
+header .hero-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .hero-content{
+    color: #ffffff;
+    text-align: center;
+}
+.hero-section .hero-content h2{
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.hero-section .hero-content p{
+    max-width: 1000px;
+    font-size: 25px;
+    padding: 0 20px;
+    margin-bottom: 400px;
+}
+.hero-section .hero-content button{
+    font-size: 22px;
+    padding: 15px 30px;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* hero section style end */
+
+
+.speakers h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0;
+}
+.speakers .gallery{
+    max-width:85%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 30px;
+}
+.speakers .gallery .card{
+    border: 1px solid #e1dcdc;
+    border-radius: 13px;
+}
+
+.speakers .gallery .card img{
+    width: 100%;
+    border-radius: 13px 13px 0 0;
+}
+.speakers .gallery .card .content{
+    margin: 15px;
+}
+
+.speakers .gallery .card .content h5{
+    color: #1D4ED8;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.speakers .gallery .card .content p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 300;
+}
