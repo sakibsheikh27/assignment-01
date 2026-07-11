@@ -225,6 +225,37 @@ header .hero-section{
     background-color: transparent;
 }
 /* secure spot style start */
+/* schedule section style start */
+.schedule h2{
+    text-align: center;
+    font-size: 50px;
+    margin: px 0;
+}
+.schedule table{
+    border: 2px solid #575757;
+    width: 70%;
+    margin: 45px auto;
+    border-collapse: collapse;
+    border-radius: 7px;
+}
+.schedule table th, td{
+    border-bottom: 2px solid #575757; 
+    padding: 25px;
+    font-size: 18px;
+}
+.schedule table th{
+    text-align: left;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    font-size: 22px;
+}
+.schedule table td{
+    text-align: left;
+    background-color: #F8F9FB;
+}
+
+
+/* schedule section style end */
 
 /* footer style start */
 
@@ -284,3 +315,4 @@ footer .social-link{
     list-style: none;
     cursor: pointer;
 }
+/* footer style end */
