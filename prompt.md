@@ -1,1 +1,0 @@
-AI Prompt: I am a beginner in html css, now give a a schedule plan for developers conference. Make sure that the schedule will be 5 times.

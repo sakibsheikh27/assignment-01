@@ -137,7 +137,7 @@ header .hero-section{
     color: #575757;
 }
 .secure-spot{
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
 }
 .secure-spot .card{
@@ -176,7 +176,7 @@ header .hero-section{
 } 
 .secure-spot .card .card-content ul li{
     margin: 10px 0;
-    font-size: 12px;
+    font-size: 16px;
 }   
 .secure-spot .card .card-content ul li::marker{
     color: #1D4ED8;
@@ -241,7 +241,7 @@ header .hero-section{
 }
 .schedule table th, td{
     border-bottom: 2px solid #575757; 
-    padding: 25px;
+    padding: 20px;
     font-size: 18px;
 }
 .schedule table th{
@@ -252,7 +252,9 @@ header .hero-section{
 }
 .schedule table td{
     text-align: left;
-    background-color: #F8F9FB;
+}
+.schedule table tr:nth-child(even){
+    background-color: #e5e2e2;
 }
 
 
