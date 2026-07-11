@@ -176,6 +176,7 @@ header .hero-section{
 } 
 .secure-spot .card .card-content ul li{
     margin: 10px 0;
+    font-size: 18px;
 }   
 .secure-spot .card .card-content ul li::marker{
     color: #1D4ED8;
