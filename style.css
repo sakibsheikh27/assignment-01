@@ -261,6 +261,7 @@ header .hero-section{
 
 footer{
     background-color:#0D1B2A;
+    border-radius: 10px 10px 0 0;
    
 }
 footer .footer-section{
