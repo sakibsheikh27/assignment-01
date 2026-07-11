@@ -32,6 +32,9 @@ nav .menu-items ul li a{
     text-decoration: none;
     color: #575757;
 }
+nav .menu-items ul li a:hover{
+    color: #1D4ED8;
+}
 nav .btn button{
     font-size: 18px;
     padding: 8px 16px;
@@ -67,7 +70,7 @@ header .hero-section{
     max-width: 1000px;
     font-size: 25px;
     padding: 0 20px;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 }
 .hero-section .hero-content button{
     font-size: 22px;
